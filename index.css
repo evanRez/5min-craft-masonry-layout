@@ -1,0 +1,9 @@
+.css-columns {
+  columns: auto 2;
+}
+
+@media (max-width: 750px) {
+  .css-columns {
+    columns: auto auto !important;
+  }
+}
